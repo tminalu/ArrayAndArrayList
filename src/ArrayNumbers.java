@@ -15,12 +15,12 @@ public class ArrayNumbers {
             // summation
             sum = sum + numbers[i];
             count +=Double.valueOf(numbers[i]);
-            average=(double) count/(double)numbers.length;
+            average=count/numbers.length;
 
 
         }
-        System.out.println(sum);
+        System.out.println("The sum is :" +sum);
 
-        System.out.println("Average is:" + average);
+        System.out.println("Average is :" + average);
     }
 }
